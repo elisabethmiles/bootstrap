@@ -1,0 +1,26 @@
+body {
+  position: relative;
+  padding-top: 40px;
+  background-color: #ededed;
+}
+
+.content {
+	background: white;
+}
+
+.content-inner {
+	margin: 20px;
+}
+
+.error {
+	background: #ffffcc;
+}
+
+.pandlwidget {
+	float: left;
+	width: 300px;
+}
+
+.actions {
+	margin-bottom: 18px;
+}
