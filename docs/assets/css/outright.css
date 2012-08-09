@@ -1,7 +1,7 @@
 body {
   position: relative;
   padding-top: 40px;
-  background-color: #ededed;
+  background: whitesmoke;
 }
 
 .content {
@@ -16,11 +16,84 @@ body {
 	background: #ffffcc;
 }
 
-.pandlwidget {
-	float: left;
-	width: 300px;
+.actions {
+	margin-bottom: 16px;
+	margin-top: 16px;
+
 }
 
-.actions {
-	margin-bottom: 18px;
+.pandlwidget {
+	font-weight: bold;
+	line-height: 36px;
+	float: left;
+	width: 280px;
 }
+
+.pandlwidget.profit {
+	background: url("../img/sun.png") no-repeat;
+	padding-left: 46px;
+	height: 42px;
+	color: #7AC143;
+}
+
+.nav-list {
+	margin-right: -20px;
+}
+
+.nav-list li{
+	text-align: right;
+	height: 68px;
+	position: relative;
+}
+
+.nav-list li.active a{
+	background: transparent;
+	color: #08c;
+	text-shadow: none;
+}
+
+.nav-list li span.carat {
+	display: none;
+}
+.nav-list li.active span.carat {
+	border-left: 10px solid transparent;
+	border-right: 10px solid white;	
+	border-bottom: 10px solid transparent;
+	border-top: 10px solid transparent;
+	position: absolute;
+	right: -26px;
+	top: 10px;
+	display: block;
+}
+
+.nav-list i {
+	height: 42px;
+	width: 50px;
+	display: block;
+	margin-left: 125px;
+}
+
+.nav-list .icon-home {
+	background: url("../img/nav-icons.png") no-repeat;
+	
+}
+
+.nav-list .icon-transactions {
+	background: url("../img/nav-icons.png") no-repeat -72px 0px;
+	
+}
+
+.nav-list .icon-reports {
+	background: url("../img/nav-icons.png") no-repeat -230px 0px;
+	
+}
+
+.nav-list .icon-taxes {
+	background: url("../img/nav-icons.png") no-repeat -330px 0px;
+	
+}
+
+.nav-list span {
+	display: block;
+}
+
